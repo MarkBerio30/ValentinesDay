@@ -26,7 +26,7 @@ document.getElementById('noButton').addEventListener('click', function() {
 
 document.getElementById('yesButton').addEventListener('click', function() {
     document.getElementById('backgroundGif').src = "Happy1.gif"; // Add your new GIF source here
-    document.getElementById('valentineText').innerText = "Yehay! I knew you'd be my Valentine Hon Bunch ko!🥰❤️";
+    document.getElementById('valentineText').innerText = "Yehay! I knew you'd be my Valentine 🥰❤️";
     document.getElementById('valentineHeading').style.display = 'none';
     document.getElementById('buttonContainer').innerHTML = '<a href="Valentines Message.pdf" download><button id="downloadButton">Click Download</button></a>';            
     document.getElementById('valentineSong').play();
